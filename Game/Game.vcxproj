@@ -139,6 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Conway%27s Game of Life\Game\game_of_life.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Conway%27s Game of Life\Game\game_of_life.cpp" />
+    <ClCompile Include="..\..\Conway%27s Game of Life\Game\program.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
